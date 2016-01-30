@@ -59,7 +59,7 @@ public class GUI {
         refreshButton.setBackground(new Color(240, 240, 240));
         refreshButton.setBorderPainted(false);
         refreshButton.setFocusPainted(false);
-        ImageIcon refreshIcon = new ImageIcon("res/refresh.png");
+        ImageIcon refreshIcon = new ImageIcon(getClass().getResource("/res/refresh.png"));
         refreshButton.setIcon(refreshIcon);
         refreshButton.setPreferredSize(new Dimension(40, 40));
         refreshButton.setBounds(285, 0, 50, 50);
@@ -69,7 +69,7 @@ public class GUI {
         saveButton.setBackground(new Color(240, 240, 240));
         saveButton.setBorderPainted(false);
         saveButton.setFocusPainted(false);
-        ImageIcon saveIcon = new ImageIcon("res/save.png");
+        ImageIcon saveIcon = new ImageIcon(getClass().getResource("/res/save.png"));
         saveButton.setIcon(saveIcon);
         saveButton.setPreferredSize(new Dimension(40, 40));
         saveButton.setBounds(385, 0, 50, 50);
@@ -79,7 +79,7 @@ public class GUI {
         loadButton.setBackground(new Color(240, 240, 240));
         loadButton.setBorderPainted(false);
         loadButton.setFocusPainted(false);
-        ImageIcon loadIcon = new ImageIcon("res/load.png");
+        ImageIcon loadIcon = new ImageIcon(getClass().getResource("/res/load.png"));
         loadButton.setIcon(loadIcon);
         loadButton.setPreferredSize(new Dimension(40, 40));
         loadButton.setBounds(335, 0, 50, 50);
